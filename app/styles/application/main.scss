@@ -1,0 +1,368 @@
+/* main.scss
+ * Application specific routes using react-router
+ * @Author: Dhanesh-Suhani
+ * @Since: 7-Oct-2016  
+ */
+@import "../bootstrap_sass/_bootstrap";
+@import "baseStyle";
+
+$main-bg-color: #f1f2f0;
+$accent-blue: #37bbe4;
+$accent-gray: #e1e0dd;
+$accent-black: #35342f;
+$accent-orange: #ec6b2d;
+$accent-red: #dd6464;
+
+#app-header{
+  height: 16em;
+  border: 1px solid #DEB887;
+}
+
+.main-app-nav {
+  font-size: 2em;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: #37bbe4;
+    font-size: 0.6em;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.user-logged-header{
+  height: 3em;
+  padding-top: 8px;
+  width: 95em;
+}
+
+.header-image{
+  margin-top: 4px;
+} 
+
+.header-images-transition{
+  transition:all 0.3s ease;
+  &:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+.page-header-text{
+  margin-left: 15px;
+}
+
+.categories{
+  @include label-plain;
+  padding: 10px 0 8px 30px;
+  >a{
+    >span{
+      padding-right: 15px;
+    }
+  }
+}
+
+
+.category-heading{
+  @include label-plain;
+  padding: 10px 0 0 20px;
+  color: #ff3333;
+}
+
+.title-text{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.login-container-wrapper{
+  background-color: #FFFAF0;
+  border: 1px solid #ccc;
+  border-radius: 2em;
+  width: 28em;
+  margin-top: 12px;
+  margin-left: 10em;
+  height: 21em;
+}
+
+.login-container{
+  width: 22em;
+  margin-left: 25px;
+}
+
+.login-button, .sign-up-button ,.submit-button, .cancel-button {
+  @extend .header-images-transition;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8em;
+  height: 2em;
+  border-radius: 1em;
+  border: 1px solid #CCC;
+  float: right;
+  margin-right: 1.5em;
+  background-color: #40E0D0;
+  color:#35342f;
+
+  &:hover{
+    background-color: #D8F8F5;
+  }
+  &:disabled{
+    background-color: #C5F5F0;
+  }
+
+  
+}
+
+.view-container {
+  @include label-bold
+  margin-top: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-container-description {
+  @include label-bold
+  margin-top: 8em;
+}
+
+
+footer {
+  font-size: 1em;
+  text-align: center;
+  padding-top: 3em;
+  a {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+      color: #37bbe4;
+    }
+  }
+
+  .copyright{
+    @include copyright;
+  }
+}
+
+#login-form-container .form-group{
+  margin-bottom: 0px !important;
+}
+
+
+.login-name-text{
+  margin-left:10px;
+  border-radius: 4px; 
+}
+
+.login-password-text{
+  margin-left:10px; 
+  border-radius: 4px;
+}
+
+.home-col{
+  width: 50%;
+  display: inline-block;
+}
+
+#sign-up-form-container .form-group{
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;
+  width: 30em !important;
+}
+
+#sign-up-form-container{
+  border: 1px solid #DEB887;
+  border-radius: 1.5em;
+  height: 38em;
+  width: 37em;
+  margin-top: 2em;
+  margin-left: 30em;
+  padding-left: 2em;
+  padding-top: 1em;
+    >div:nth-of-type(1){
+      font-weight: 700;
+      font-size:20px;
+      margin-left: 5.5em;
+    }
+}
+
+#sign-up-form-container .form-control{
+  margin-left:2em;
+}
+
+#sign-up-form-container .form-group .sign-up-name-text{
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+#sign-up-form-container .form-group .sign-up-name-text-error{
+  border-radius: 4px;
+  border-color: #ff8080;
+  margin-bottom: 15px;
+}
+
+#sign-up-form-container .form-group .sign-up-password-text{
+  border-radius: 4px;
+}
+
+#sign-up-form-container .form-group .sign-up-password-text-error{
+  border-radius: 4px;
+  border-color: #ff8080;
+}
+
+
+#sign-up-form-container .form-group .sign-up-email-text{
+  margin-left:24px;
+  border-radius: 4px;
+}
+
+#sign-up-form-container .form-group .sign-up-email-text-error{
+  margin-left:24px;
+  border-radius: 4px;
+  border-color: #ff8080;
+}
+
+
+#sign-up-form-container .form-group .sign-up-contact-text{
+  margin-left: 24px;
+  border-radius: 4px;
+}
+
+#sign-up-form-container .form-group .sign-up-contact-text-error{
+  margin-left: 24px;
+  border-radius: 4px;
+  border-color: #ff8080;
+}
+
+
+#sign-up-form-container .sign-up-address-text {
+  font-weight: 700;
+  >textarea:nth-of-type(1){
+    font-weight: 100;
+    border-radius: 4px;
+    width:30em;
+    height: 6em;
+  }
+}
+
+#sign-up-form-container .sign-up-address-text-error {
+  font-weight: 700;
+  >textarea:nth-of-type(1){
+    font-weight: 100;
+    border-radius: 4px;
+    border-color: #ff8080;
+    width: 30em;
+    height: 6em;
+  }
+}
+
+.logged-user-name{
+  @extend .header-images-transition;
+  margin-left: 20px;
+  float:left;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.cart-info{
+  margin-right: 40px;
+  float:right;
+  >span:nth-child(1){
+    padding-right: 30px;
+      >span:nth-of-type(1){
+      padding-left: 8px;
+    }
+  }
+  >span:nth-child(2){
+      >span:nth-of-type(1){
+      padding-left: 8px;
+    }
+  }
+}
+
+.logout{
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  &:hover {
+     color: #ff8080;
+  }
+}
+
+.logout .glyphicon-off{
+  color:#ff8080;
+}
+
+.items-section-wrapper{
+  width:84em;
+  margin-top: 25px;
+  display: inline-flex;
+  >div{
+    @extend .header-images-transition;
+    margin-left: 2em;
+    margin-right: 2em;
+    >div:nth-of-type(1){
+      >span{
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-weight: 800;
+        margin-left: 25px;
+        padding: 0 8px 0 8px;
+        &:hover {
+          color: #ff8080;
+        }
+      }
+    }
+  }
+}
+
+.counter-num-label {
+  color: $accent-orange;
+}
+
+.modal-content {
+    width: 120%;
+    height: 480px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.empty-cart-text{
+    font-size: 3em;
+    font-family: monospace;
+    color: chocolate;
+    margin: 2em;
+ }
+
+ .cart-section-wrapper{
+  width:20em;
+  margin-top: 25px;
+  display: inline-block;
+  >div{
+    @extend .header-images-transition;
+    margin:2em;
+    >div:nth-of-type(1){
+      >span{
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-weight: 800;
+        margin-left: 25px;
+        padding: 0 8px 0 8px;
+        &:hover {
+          color: #ff8080;
+        }
+      }
+    }
+  }
+ }
+
+
+
+
+
+
+
+
+
