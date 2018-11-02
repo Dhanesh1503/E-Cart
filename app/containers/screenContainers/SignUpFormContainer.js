@@ -1,6 +1,6 @@
 /* SignUpFormContainer.js
  * Component for Sign up Form Container section.
- * @Author: Dhanesh-Suhani
+ * @Author: Dhanesh Pant
  * @Since: 10-Oct-2016  
  */
 import React, { Component } from 'react'

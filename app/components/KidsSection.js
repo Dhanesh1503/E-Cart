@@ -1,6 +1,6 @@
 /* KidsSection.js
  * Component for Kid's section.
- * @Author: Dhanesh-Suhani
+ * @Author: Dhanesh Pant
  * @Since: 8-Oct-2016  
  */
 

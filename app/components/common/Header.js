@@ -1,6 +1,6 @@
 /* Header.js
  * Component for Header section.
- * @Author: Dhanesh-Suhani
+ * @Author: Dhanesh Pant
  * @Since: 8-Oct-2016  
  */
 import React, { Component, propTypes} from 'react'

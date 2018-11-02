@@ -1,6 +1,6 @@
 /* Login.js
  * Component for Login Control section.
- * @Author: Dhanesh-Suhani
+ * @Author: Dhanesh Pant
  * @Since: 9-Oct-2016  
  */
 

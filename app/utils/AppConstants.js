@@ -1,6 +1,6 @@
 /* App Constants
  * For Constant used in all Screen section.
- * @Author: Dhanesh-Suhani
+ * @Author: Dhanesh Pant
  * @Since: 9-Oct-2016  
  */
 

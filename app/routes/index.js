@@ -1,6 +1,6 @@
 /* index.js
  * Application specific routes using react-router
- * @Author: Dhanesh-Suhani
+ * @Author: Dhanesh Pant
  * @Since: 7-Oct-2016  
  */
 import React from 'react'
