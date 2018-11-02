@@ -1,5 +1,5 @@
 #E-Cart 
-#E-Commerce Portal
+E-Commerce Portal gh-pages branch
 
 #Pre-requisite
 Need to install node.js to provide a environment for running the App.
