@@ -1,7 +1,6 @@
 /* ECartActions.js
  * Component for ECartActions section.
  * @Author: Dhanesh Pant
- * @Since: 8-Oct-2016  
  */
 
 /**

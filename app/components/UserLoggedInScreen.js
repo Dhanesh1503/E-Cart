@@ -1,7 +1,6 @@
 /* UserLoggedInScreen.js
  * Component for User Logged-In Screen section.
  * @Author: Dhanesh Pant
- * @Since: 10-Oct-2016  
  */
 
 import React, { Component } from 'react'

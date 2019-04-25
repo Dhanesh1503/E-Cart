@@ -1,7 +1,6 @@
 /* webpack.config.js
  * Webpack config file to create bundle and place it in dist folder based on Node environment
- * @Author: Kailash Sharma
- * @Since: 28-Apr-2016  
+ * @Author: Dhanesh Pant
  */
 
 var path = require('path');

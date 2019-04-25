@@ -1,7 +1,6 @@
 /* SignUpForm-test.js
  * Test Cases related to Sign-Up section.
  * @Author: Dhanesh Pant
- * @Since: 9-Oct-2016  
  */
 'use strict';
 

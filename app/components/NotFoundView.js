@@ -1,7 +1,6 @@
 /* NotFoundView.js
  * Component for Not found section.
   * @Author: Dhanesh Pant
- * @Since: 8-Oct-2016  
  */
 
 import React from 'react';
