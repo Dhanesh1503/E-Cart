@@ -1,7 +1,6 @@
 /* HomeContainer.js
  * Component for Home Container section.
  * @Author: Dhanesh Pant
- * @Since: 10-Oct-2016  
  */
 
 import React, { Component } from 'react'

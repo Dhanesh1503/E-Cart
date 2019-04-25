@@ -1,7 +1,6 @@
 /* gulpfile.js
  * This file is used to process .scss files and compile them to css.
- * @Author: Kailash Sharma
- * @Since: 28-Apr-2016  
+ * @Author: Dhanesh Pant
  */
 var gulp = require('gulp'),
   $ = require('gulp-load-plugins')(),

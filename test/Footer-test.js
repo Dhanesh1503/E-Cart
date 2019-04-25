@@ -1,7 +1,6 @@
 /* Footer-test.js
  * Test Cases related to Footer section.
  * @Author: Dhanesh Pant
- * @Since: 9-Oct-2016  
  */
 
 'use strict';

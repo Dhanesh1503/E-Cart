@@ -1,7 +1,6 @@
 /* Home.js
  * Component for Home Screen section.
  * @Author: Dhanesh Pant
- * @Since: 8-Oct-2016  
  */
 
 import React, { Component } from 'react'

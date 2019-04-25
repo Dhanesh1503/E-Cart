@@ -1,7 +1,6 @@
 /* Home-test.js
  * Test Cases related to Home section.
  * @Author: Dhanesh Pant
- * @Since: 9-Oct-2016  
  */
 'use strict';
 

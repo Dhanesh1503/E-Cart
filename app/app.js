@@ -1,7 +1,6 @@
 /* app.js
  * Base component that implement the render() method and is responsible toload the HTML content.
  * @Author: Dhanesh Pant
- * @Since: 2-oct-2016  
  */
  
 import 'babel-polyfill';

@@ -1,7 +1,6 @@
 /* HttpRestClient.js
  * Wrapper for SuperAgent Ajax API.
  * @Author: Dhanesh Pant
- * @Since: 2-oct-2016  
  */
 
  

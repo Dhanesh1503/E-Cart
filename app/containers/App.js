@@ -1,7 +1,6 @@
 /* App.js
  * This is the root container which will be rendered first.
  * @Author: Dhanesh Pant
- * @Since: 7-oct-2016  
  */
 
 import React, { Component } from 'react'

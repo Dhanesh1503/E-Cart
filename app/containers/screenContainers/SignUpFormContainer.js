@@ -1,7 +1,6 @@
 /* SignUpFormContainer.js
  * Component for Sign up Form Container section.
  * @Author: Dhanesh Pant
- * @Since: 10-Oct-2016  
  */
 import React, { Component } from 'react'
 import { connect } from 'react-redux'

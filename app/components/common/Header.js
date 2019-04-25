@@ -1,7 +1,6 @@
 /* Header.js
  * Component for Header section.
  * @Author: Dhanesh Pant
- * @Since: 8-Oct-2016  
  */
 import React, { Component, propTypes} from 'react'
 import { browserHistory ,Link} from 'react-router'
